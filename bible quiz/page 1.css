@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#first-id {
+    background-color: purple;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 25px;
+    top: 0px;
+}
+
+#first-id h1 {
+    text-align: center;
+    color: white;
+    text-shadow: black 4px 6px 5px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.first-class {
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    font-family: arial;
+
+}
+
+.first-class h3 {
+
+    position: absolute;
+    top: -35px;
+    left: 120px;
+
+}
+
+form {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    font-family: arial;
+}
+
+#arrow {
+    width: 68px;
+    height: 50px;
+    position: absolute;
+    bottom: 250px;
+    right: 18px;
+    border: 1px solid purple;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 230px;
+    right: 25px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+#back {
+    width: 68px;
+    height: 50px;
+    position: absolute;
+    bottom: 250px;
+    left: 18px;
+    border: 1px solid purple;
+}
+
+#figcap {
+    position: absolute;
+    bottom: 230px;
+    left: 16px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+button {
+    position: absolute;
+    bottom: 170px;
+    left: 157px;
+    padding: 10px 15px 10px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+    #first-id {     
+        padding-bottom: 35px;
+    }
+    
+#first-id h1 {
+    margin-top: 30px;
+    }
+    .first-class {  
+        top: 165px;
+        font-size: 23px; 
+    }
+    
+    .first-class h3 {
+        left: 300px;
+    }
+    form {
+        top: 220px;
+     font-size: 20px;
+    }
+    #arrow {
+        bottom: 120px;
+        right: 45px;
+    }
+    figcaption {  
+        bottom: 100px;
+        right: 47px;
+        font-weight: 700;
+    }
+    #back {
+        bottom: 120px;
+        left: 45px;
+      
+    }
+    
+    #figcap {
+        bottom: 100px;
+        left: 45px;  
+        font-weight: 700;
+    }
+    button {
+        
+        bottom: 100px;
+        left: 320px;
+        padding: 15px 35px 15px 35px;
+        font-size:larger;
+          
+    }
+    
+
+}
+
+
+
+
+    @media only screen and (min-width: 1000px) {
+        .first-class h3 {
+            left: 600px;
+        }   
+        #arrow {
+            bottom: 100px;
+        }
+        figcaption {  
+            bottom: 160px;
+            right: 50px;
+        }
+        #back {
+            bottom: 100px;      
+        }
+        #figcap {
+            bottom: 160px;
+            left: 44px;  
+        }
+        button {
+        
+            bottom: 90px;
+            left: 600px;        
+        }
+    }

@@ -1,0 +1,560 @@
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+ padding: 0%;  
+ margin: 0 auto;
+}
+
+html,:root
+body {
+    background-size: cover;
+    background-color: plum;
+    font-family: serif;
+}
+
+#first-id img{
+    max-width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 100px ;
+
+}
+
+#second-id {
+    background-color: purple;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 25px;
+    top: 0px;
+}
+
+#second-id h1 {
+    text-align: center;
+    color: white;
+    text-shadow: black 4px 6px 5px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+nav {
+    background-color: rgb(187, 106, 180);
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    text-align: right;
+    padding: 15px 15px;
+}
+
+nav #first-p {
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    display: block;
+    color: white;
+    line-height: 5px;
+    font-size: 50px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: arial;
+    color: white;
+    font-size: small;
+    padding-right: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration-line: none;
+}
+
+nav li :active {
+    background-color: white;
+    color: purple;
+    filter: drop-shadow(5px 5px 15px black);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.third-id {
+    position: absolute;
+    top: 160px;
+    background-color: purple;
+    margin-left: 65px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 6px 10px 7px 10px;
+
+}
+
+.third-id
+#second-p {
+    color: white;
+    font-size: 9px;
+    font-family: arial;
+    padding-right: 13px;
+}
+
+#first-span {
+    margin-left: 45px;
+}
+
+#fourth-id {
+    position: absolute;
+    top: 183px;
+    left: 65px;
+    background-color: white;
+    padding: 100px 252px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.527) 10px 50px 90px;
+}
+
+#fourth-id .first-class-p {
+    position: absolute;
+    top: 8px;
+    left: -140px;
+    color: purple;
+    font-size: 10px;
+}
+
+#fourth-id img {
+    width: 30px;
+    height: 1;
+    position: absolute;
+    top: 36px;
+    left: 38px;
+}
+
+#fourth-id #third-p  {
+    margin-right:  160px;
+    margin-top: 70px;
+    font-weight: 700;
+    font-family: arial;
+    font-size: 5px;
+}
+
+#fourth-id p {
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    font-family: arial;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+#fourth-id button {
+    position: absolute;
+    top: 67px;
+    right: 25px;
+    color: purple;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top:  1px  solid purple;
+    border-bottom:  1px  solid purple;
+    border-left: none;
+    border-right: none;
+    font-size: 6px;
+}
+
+button a {
+    color: purple;
+    text-decoration-line: none;
+
+}
+
+#dashboard {
+    position: absolute;
+    background-color: rgb(156, 7, 131);
+    border: 1px solid black;
+    padding-bottom: 80px;
+    width: 30%;
+    top: 70px;
+    border: none;
+    display: none;
+}
+
+#dashboard h6 {
+    position: absolute;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    left: 25px;
+    top: 22px;
+}
+
+#dashboard #first-img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0px;
+}
+
+#dashboard hr {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    border: 1px solid plum;
+    position: relative;
+    opacity: 0.2;
+}
+
+.second-hr {
+    position: absolute;
+    top: 0px;
+}
+
+.username {
+    position: absolute;
+    left: 29px;
+    font-weight: 900;
+    top: 58px;
+    color: white;
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fb {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -15px;
+    top: -1px;
+}
+
+#instagram-p {
+    top: 100px;
+}
+
+.instagram {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -15px;
+    top: -1px;
+}
+
+#telegram-p {
+    top: 140px;
+}
+
+.telegram {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -15px;
+    top: -1px;
+}
+
+#CNC {
+    position: absolute;
+    top: 357px;
+    display: flexbox;
+    text-align: center;
+    color: darkmagenta;
+    background-color: floralwhite;
+    padding: 10px 50px;
+    font-family: arial;
+    font-size: small;
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 470px){
+    .third-id {
+        position: absolute;
+        top: 160px;
+        background-color: purple;
+        margin-left: 100px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 6px 0px 7px 10px;
+    
+    }
+    
+    .third-id
+    #second-p {
+        color: white;
+        font-size: 9px;
+        font-family: arial;
+        padding-right: 13px;
+        padding-left: 10px;
+    }
+    
+
+#fourth-id {
+    position: absolute;
+    top: 183px;
+    left: 100px;
+
+    }
+    #CNC {
+        position: absolute;
+        top: 400px;
+        display: flexbox;
+        text-align: center;
+     
+        padding: 25px 50px;
+        font-family: arial;
+        font-size: small;
+    
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    #second-id {
+        position: absolute;
+        width: 100%;
+        padding-bottom: 70px;
+    }
+    #second-id h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    nav {
+        position: absolute;
+        top: 90px;
+        padding: 15px 35px;
+    }
+    #first-p {
+    left: 45px;
+    top: -10px; 
+    font-size: 50px;
+}
+nav li {
+    font-size: bold;
+    }  
+
+    #first-id {
+        bottom: 380px;
+
+}
+.third-id {
+    position: absolute;
+    margin-left: 130px;
+    padding: 6px 500px 50px 10px;
+
+}
+.third-id
+#second-p {
+    position: absolute;
+    top: 15px;
+    font-size: 15px;
+    width: 510px;
+    font-weight: normal;
+    left: 18px;
+    }
+
+#first-span {
+        position: absolute;
+        left: 280px;
+    }
+
+    #fourth-id {
+        position: absolute;
+        top: 210px;
+        left: 130px;
+        padding: 100px 510px 110px 0px;
+     
+    }
+
+    #fourth-id .first-class-p {
+        top: 10px;
+        left: -320px;
+        font-size: 18px;
+    }
+    
+    #fourth-id img {
+        width: 125px;
+        height: 120px;
+        top: 56px;
+        left: 30px;
+}
+
+    #fourth-id #third-p {
+        position:absolute;
+        top: 112px;
+        font-size: 15px;
+        left:-100px;
+    }
+    
+#fourth-id p {
+    top: 10px;
+    right: 7px;  
+    font-size: 20px;
+}
+
+#fourth-id button {
+    position: absolute;
+    top: 107px;
+    right: 25px;
+
+    font-size: 18px;
+}
+
+    
+#fifth-id {
+    top: 230px;
+    right: 160px;
+    font-size: 20px;
+
+}
+button {
+    top: 330px;
+    right: 155px;
+    padding-left: 16px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+    #dashboard {
+        padding-bottom: 220px;
+        padding-right: 10px;   
+    }
+
+    #dashboard h6 {
+        font-size: 20px;
+        left: 35px;
+        top: 25px;
+    }
+
+#dashboard #first-img {
+    width: 25px;
+    height: 25px;
+}
+
+#dashboard hr {
+    width: 100%;
+    margin-top: 60px;
+
+}
+.username {
+    left: 49px;
+    font-weight: 700;
+    top: 82px;
+    font-size: 16px;
+    font-stretch: normal;
+}
+
+.fb {
+    width: 25px;
+    height: 25px;
+    left: -31px;
+    top: -2px;
+}
+
+#instagram-p {
+    top: 200px;
+}
+
+.instagram {
+    width: 25px;
+    height: 25px;
+    left: -31px;
+    top: -4px;
+}
+
+#telegram-p {
+    top: 140px;
+}
+
+.telegram {
+    width: 25px;
+    height: 25px;
+    left: -31px;
+ 
+}
+
+    #CNC {
+        top: 600px;
+        display: flexbox;
+        padding: 30px 50px;
+        font-size: 13px;
+        width: 100%;
+    
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    #first-id img{
+        width: 100%; 
+        height: 80%;
+    
+    }
+    .third-id {
+        margin-left: 200px;
+    
+    }
+    #fourth-id {
+        left: 200px;
+    }
+    #fifth-id {
+        right: 475px;
+        font-size: 15px;
+        font-weight: normal;
+    
+    }
+    button {
+        top: 310px;
+        right: 470px; 
+    }
+        #CNC {
+        top: 543px;
+        padding: 30px 50px;
+
+
+        }
+
+@media only screen and (min-width: 1200px){
+    .third-id {
+        margin-left: 400px;
+    
+    }
+    #fourth-id {
+        left: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

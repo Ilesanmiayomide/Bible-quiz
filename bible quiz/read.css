@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0% auto;
+
+}
+
+
+
+
+#second-id {
+    background-color: purple;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 25px;
+    top: 0px;
+}
+
+#second-id h1 {
+    text-align: center;
+    color: white;
+    text-shadow: black 4px 6px 5px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+p{
+    position: absolute;
+    top: 100px;
+    font-size: large;
+    left: 10px;
+    
+}
+p a{
+    color: purple;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+    #second-id h1 {
+        
+        font-size: 35px;
+        margin-top: 35px;
+    }
+    p{
+      
+        top: 130px;
+        font-size: 23px;
+        left: 10px;
+    }
+        
+}
